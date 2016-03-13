@@ -1,0 +1,22 @@
+
+body {
+    font-family: Avenir Next;
+}
+
+
+.centerblock {
+    position: absolute;
+    width: 20%;
+    top: 33%;
+    left: 40%;
+}
+
+.centerblock .image {
+    margin-left: 30%;
+    width: 40%;
+}
+
+.centerblock .notice {
+    margin-top: 20px;
+    font-size: 18px;
+}

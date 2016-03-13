@@ -10,11 +10,17 @@ function showPage(page) {
 }
 
 $(document).ready(function() {
-    showPage("#about")
+    showPage("#projects")
 
     $("a").click(function(){
         hideAll()
         showPage($(this).attr("href"))
     });
 
+    $(".proj-img").mouseover(function() {
+        // $( this ).grayscale();
+    })
+
 });
+
+window.location.replace("http://www.lunayuezuo.com/maintenance.html");

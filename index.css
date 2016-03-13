@@ -1,6 +1,12 @@
 
+body {
+    font-family: Avenir Next;
+}
+
 .fullname {
+    padding-top: 30px;
     padding-left: 25px;
+    width: 140px;
 }
 
 .leftblock {
@@ -36,10 +42,32 @@
 .centerblock .content {
     height: 100%;
     width: 800px;
-    padding: 10px 5px 20px 5px;
+    padding: 30px 5px 20px 5px;
     margin: auto;
     display: none;
 }
+
+.centerblock .content .content-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.centerblock .content .proj-cell {
+    padding: 20px;
+}
+.centerblock .content .proj-name {
+    padding-top: 10px;
+    font-size: 15px;
+}
+.centerblock .content .proj-date {
+    font-size: 10px;
+}
+.centerblock .content .proj-img {
+    /*border: 10px solid black;*/
+}
+
+
+
 
 
 
