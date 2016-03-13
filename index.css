@@ -1,0 +1,48 @@
+
+.fullname {
+    padding-left: 25px;
+}
+
+.leftblock {
+    position: fixed;
+    width: 160px;
+    /*border-right: 1px solid #000000;*/
+}
+.leftblock .manublock {
+    padding: 40px 0px 10px 25px;
+}
+.leftblock .manublock .manucell {
+    padding-top: 10px;
+}
+.leftblock .manublock .manucell a {
+    color: black;
+}
+.leftblock .manublock .manucell a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.centerblock {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 160px;
+    right: 0px;
+    padding-right: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.centerblock .content {
+    height: 100%;
+    width: 800px;
+    padding: 10px 5px 20px 5px;
+    margin: auto;
+    display: none;
+}
+
+
+
+
+
+
