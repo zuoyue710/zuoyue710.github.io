@@ -23,4 +23,4 @@ $(document).ready(function() {
 
 });
 
-window.location.replace("http://www.lunayuezuo.com/maintenance.html");
+window.location.replace("http://www.lunayuezuo.com/coming.html");
